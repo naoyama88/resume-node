@@ -28,6 +28,11 @@ class ExpressActor
 				console.log("Recieved 'Get' request for resource: " + req.url + " from HOST: " + req.get('host'));
  				res.send("{hello:world}");
 				})
+		this.server.get('/users/*', function (req, res) 
+				{
+				console.log("Recieved 'Get' request for resource: " + req.url + " from HOST: " + req.get('host'));
+					res.send("{hello:user}");
+				})
 		}
 
 	startServer(port)

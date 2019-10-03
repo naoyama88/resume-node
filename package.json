@@ -1,5 +1,5 @@
 {
-  "name": "synapse-core",
+  "name": "resume",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,13 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@873a8522-c495-433a-9f18-34de946733f6.pub.cloud.scaleway.com:synapse/shell/shell-core.git"
+    "url": "https://github.com/naoyama88/resume.git"
   },
   "keywords": [
-    "synapse",
-    "core"
   ],
-  "author": "Ivan Malone",
+  "author": "Marcus Naoya Araki",
   "license": "ISC",
   "dependencies": {
     "async": "^2.6.2",
